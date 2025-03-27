@@ -3,7 +3,7 @@
 <package format="3">
   <name>py_srvcli</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Python client server tutorial.</description>
   <maintainer email="quietjosen@gmail.com">jason</maintainer>
   <license>Apache-2.0</license>
 
