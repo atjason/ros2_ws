@@ -3,7 +3,7 @@
 <package format="3">
   <name>python_parameters</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Python parameters tutorial.</description>
   <maintainer email="quietjosen@gmail.com">jason</maintainer>
   <license>Apache-2.0</license>
 

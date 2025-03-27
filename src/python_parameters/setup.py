@@ -15,11 +15,12 @@ setup(
     zip_safe=True,
     maintainer='jason',
     maintainer_email='quietjosen@gmail.com',
-    description='TODO: Package description',
+    description='Python parameters tutorial.',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'minimal_node = python_parameters.python_parameters_node:main',
         ],
     },
 )
