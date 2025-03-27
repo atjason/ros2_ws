@@ -17,7 +17,7 @@ from rclpy.node import Node
 
 from std_msgs.msg import String
 
-from tutorial_interfaces import Num
+from tutorial_interfaces.msg import Num
 
 
 class MinimalSubscriber(Node):
@@ -32,7 +32,7 @@ class MinimalSubscriber(Node):
         self.subscription  # prevent unused variable warning
 
     def listener_callback(self, msg):
-        self.get_logger().info('I heard: "%d"' % msg.num)
+        self.get_logger().info('I heard: %d' % msg.num)
 
 
 def main(args=None):

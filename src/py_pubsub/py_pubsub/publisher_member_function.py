@@ -17,7 +17,7 @@ from rclpy.node import Node
 
 from std_msgs.msg import String
 
-from tutorial_interfaces import Num
+from tutorial_interfaces.msg import Num
 
 
 class MinimalPublisher(Node):
@@ -33,7 +33,7 @@ class MinimalPublisher(Node):
         msg = Num()
         msg.num = self.i
         self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%d"' % msg.num)
+        self.get_logger().info('Publishing: %d' % msg.num)
         self.i += 1
 
 
