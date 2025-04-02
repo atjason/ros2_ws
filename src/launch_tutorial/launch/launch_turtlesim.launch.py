@@ -23,7 +23,7 @@ def generate_launch_description():
   )
   
   broadcaster_listener_nodes = IncludeLaunchDescription(
-    PythonLaunchDescriptionSource([launch_dir, '/turtlesim_world_2.launch.py']),
+    PythonLaunchDescriptionSource([launch_dir, '/broadcaster_listener.launch.py']),
     launch_arguments={'target_frame': 'carrot1'}.items(),
   )
   mimic_nodes = IncludeLaunchDescription(
